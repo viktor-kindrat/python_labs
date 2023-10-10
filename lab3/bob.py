@@ -1,4 +1,4 @@
-def get_letters_and_numbers():  # Returns a list of allowed symbols
+def get_letters_and_numbers():  # Returns tuple of allowed symbols
     symbols = []
     for i in range(65, 91):
         symbols.append(chr(i))
