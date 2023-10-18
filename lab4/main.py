@@ -1,10 +1,4 @@
 class Insect:
-    __name = None
-    __speed = None
-    __weigth = None
-
-    age = None
-    insect_type = None
 
     def __init__(self, name="Mia", speed=10, weight=10, age=0, insect_type="bug"):
         self.__name = name
