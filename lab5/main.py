@@ -1,4 +1,7 @@
 class Smartphone:
+    """
+    Object that describe a smartphone
+    """
     def __init__(self, price, model, phone_numbers, memory, battery_capacity):
         self.price = price
         self.model = model
@@ -13,6 +16,9 @@ class Smartphone:
         return "Smartphone object"
 
     def get_info(self):
+        """
+        Method that print all values of Smartphone object
+        """
         print("Price", self.price, "$")
         print("Model", self.model)
         print("Phone numbers", ", ".join(self.phone_numbers))
@@ -30,12 +36,18 @@ class PhoneStore:
                 print("WARNING! One of your phones is not of type Smartphone".center(100))
 
     def add_phone(self, phone):
-        if repr(phone) == "Smartphone object":
+        """
+        Method that add new Smartphone to PhoneStore
+        """
+        if isinstance(phone, Smartphone):
             self.phones.push(phone)
         else:
             print("Error! Your object is not of type Smartphone")
 
     def choose_best_phone(self):
+        """
+        Method that return phone that cost the most
+        """
         best_phone = self.phones[0]
         for phone in self.phones:
             if phone.price > best_phone.price:
@@ -43,6 +55,9 @@ class PhoneStore:
         return best_phone
 
     def sort_by_price(self):
+        """
+        Method that return list of phones sorted by price (from 0 to +Infinity)
+        """
         n = len(self.phones)
         sorted_phones = self.phones
 
