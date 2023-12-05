@@ -1,0 +1,63 @@
+ERROR:__main__:Exception caught: One of given parameters in phones is not type of Phone
+Traceback (most recent call last):
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 58, in wrapper
+    function(*args, **kwargs)
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 84, in __init__
+    raise PhoneErrorException("One of given parameters in phones is not type of Phone")
+PhoneErrorException: One of given parameters in phones is not type of Phone
+Exception caught: One of given parameters in phones is not type of Phone
+Traceback (most recent call last):
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 59, in wrapper
+    function(*args, **kwargs)
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 85, in __init__
+    raise PhoneErrorException("One of given parameters in phones is not type of Phone")
+PhoneErrorException: One of given parameters in phones is not type of Phone
+ERROR:__main__:Exception caught: One of given parameters in phones is not type of Phone
+Traceback (most recent call last):
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 59, in wrapper
+    function(*args, **kwargs)
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 85, in __init__
+    raise PhoneErrorException("One of given parameters in phones is not type of Phone")
+PhoneErrorException: One of given parameters in phones is not type of Phone
+ERROR:__main__:Exception caught: One of given parameters in phones is not type of Phone
+Traceback (most recent call last):
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 59, in wrapper
+    function(*args, **kwargs)
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 85, in __init__
+    raise PhoneErrorException("One of given parameters in phones is not type of Phone")
+PhoneErrorException: One of given parameters in phones is not type of Phone
+Exception caught: One of given parameters in phones is not type of Smartphone
+Traceback (most recent call last):
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 60, in wrapper
+    function(*args, **kwargs)
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 86, in __init__
+    raise PhoneErrorException("One of given parameters in phones is not type of Smartphone")
+PhoneErrorException: One of given parameters in phones is not type of Smartphone
+ERROR:__main__:Exception caught: One of given parameters in phones is not type of Smartphone
+Traceback (most recent call last):
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 60, in wrapper
+    function(*args, **kwargs)
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 86, in __init__
+    raise PhoneErrorException("One of given parameters in phones is not type of Smartphone")
+PhoneErrorException: One of given parameters in phones is not type of Smartphone
+Exception caught: One of given parameters in phones is not type of Smartphone
+Traceback (most recent call last):
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 60, in wrapper
+    function(*args, **kwargs)
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 86, in __init__
+    raise PhoneErrorException("One of given parameters in phones is not type of Smartphone")
+PhoneErrorException: One of given parameters in phones is not type of Smartphone
+ERROR:__main__:Exception caught: One of given parameters in phones is not type of Smartphone
+Traceback (most recent call last):
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 60, in wrapper
+    function(*args, **kwargs)
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 86, in __init__
+    raise PhoneErrorException("One of given parameters in phones is not type of Smartphone")
+PhoneErrorException: One of given parameters in phones is not type of Smartphone
+ERROR:__main__:Exception caught: Given parameter is not type of Smartphone
+Traceback (most recent call last):
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 60, in wrapper
+    function(*args, **kwargs)
+  File "/mnt/w/NULP/labs/lab7/lab5_modified.py", line 96, in add_phone
+    raise PhoneErrorException("Given parameter is not type of Smartphone")
+PhoneErrorException: Given parameter is not type of Smartphone
